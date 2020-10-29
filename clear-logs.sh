@@ -7,3 +7,7 @@ done
 for i in /var/log/unbound/*; do
   echo -n "" > "$i"
 done
+
+for i in /var/log/tinyproxy/*; do
+  echo -n "" > "$i"
+done
