@@ -3,7 +3,7 @@
 TMPFILE=$(mktemp)
 
 echo "Downloading the latest Postman..."
-curl --compressed -fsSLJ -o "$TMPFILE" https://dl.pstmn.io/download/latest/linux64
+curl -LJ -o "$TMPFILE" https://dl.pstmn.io/download/latest/linux64
 
 if [[ -f "$TMPFILE" ]]; then
   echo "Copying new Postman..."
