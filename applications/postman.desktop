@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Application;Development;
+Comment=Work with APIs
+Exec=/opt/postman/Postman/app/Postman %U
+GenericName=API Development Tool
+Icon=/opt/postman/Postman/app/resources/app/assets/icon.png
+Name=Postman
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+X-MultipleArgs=false

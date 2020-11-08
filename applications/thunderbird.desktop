@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Network;Email;Internet
+Comment=Read Mail & News
+Exec=/opt/thunderbird/thunderbird %u
+GenericName=Email Client
+Icon=/opt/thunderbird/chrome/icons/default/default256.png
+MimeType=message/rfc822;x-scheme-handler/mailto;application/rss+xml;application/x-xpinstall;
+Name=Thunderbird
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+X-MultipleArgs=false
